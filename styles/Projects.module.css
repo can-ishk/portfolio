@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  height: 100vh;
+  font-family: "Druk Wide Bold", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+    transform-style: preserve-3d;
+  perspective: 1200px;
+    
+}
+
+.projectList {
+    margin-top: 4rem;
+  display: flex;
+  transform: rotateY(-36deg);
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  align-items: center;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  max-height: 80vh;
+  text-align: right;
+  font-weight: 900;
+  font-size: xx-large;
+  overflow-y: scroll;
+  list-style: none;
+}
+
+.projectList::-webkit-scrollbar { 
+    display:block;
+}
