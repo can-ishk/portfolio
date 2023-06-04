@@ -33,7 +33,8 @@ const projects: Project[] = [
     name: "MentorME: Effortless Collaboration",
     description: "This is a project",
     image: "/project1.png",
-    url: "https://www.google.com",
+    url: "https://mentor-me-client.vercel.app/",
+    github: "https://github.com/can-ishk/mentor-me-server",
     year: "2023",
   },
   {
@@ -41,7 +42,8 @@ const projects: Project[] = [
     name: "Sentiment Analysis Discord Bot",
     description: "This is a project",
     image: "/project1.png",
-    url: "https://www.google.com",
+    // url: "https://www.google.com",
+    github: "https://github.com/can-ishk/sentiment-analysis-discord-bot",
     year: "2022",
   },
   {
@@ -49,7 +51,8 @@ const projects: Project[] = [
     name: "E - Cell SNU Website",
     description: "This is a project",
     image: "/project1.png",
-    url: "https://www.google.com",
+    url: "https://ecellsnu.com/home",
+    github: "https://github.com/can-ishk/mentor-me-server",
     year: "2022",
   },
   {
@@ -57,7 +60,8 @@ const projects: Project[] = [
     name: "Random Lyric Twitter Bot",
     description: "This is a project",
     image: "/project1.png",
-    url: "https://www.google.com",
+    github: "https://github.com/can-ishk/twitter-lyric-bot",
+    // url: "https://www.google.com",
     year: "2021",
   },
   // {

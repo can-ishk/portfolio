@@ -3,7 +3,7 @@ export type Project = {
     name: string;
     description: string;
     url?: string;
-    github?: string;
+    github: string;
     image: string;
     year: string;
     technologies?: string[];

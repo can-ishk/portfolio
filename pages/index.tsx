@@ -7,8 +7,6 @@ import SocialLink from "@/components/SocialLink";
 import Hero from "@/components/HeroText";
 import Projects from "@/components/Projects";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export default function Home() {
   return (
     <>

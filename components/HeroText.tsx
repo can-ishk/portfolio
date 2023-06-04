@@ -15,6 +15,12 @@ const socials: Social[] = [
     url: "https://github.com/can-ishk",
     icon: "icons/github.svg",
   },
+  {
+    id: 3,
+    name: "CV",
+    url: "https://www.linkedin.com/in/kanishk-chathley/details/featured/1635527520585/single-media-viewer?type=DOCUMENT&profileId=ACoAADFm0dsB6RkuctKI_mzp8V_jdJgRyJ6jbBk&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_featured_details%3BzutlpZIxTC",
+    icon: "icons/resume.svg",
+  },
 ];
 
 export default function Hero() {
