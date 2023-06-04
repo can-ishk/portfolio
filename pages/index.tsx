@@ -6,16 +6,14 @@ import { Social } from "@/types/social";
 import SocialLink from "@/components/SocialLink";
 import Hero from "@/components/HeroText";
 import Projects from "@/components/Projects";
-import { useState } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  const [displayJobs, setDisplayJobs]= useState(false);
   return (
     <>
       <Head>
-        <title>Kanishk Chathley</title>
+        <title>Kanishk Chathley | Portfolio</title>
         <meta name="description" content="Kanishk Chathley's Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

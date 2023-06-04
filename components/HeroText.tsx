@@ -12,7 +12,7 @@ const socials: Social[] = [
   {
     id: 2,
     name: "GitHub",
-    url: "",
+    url: "https://github.com/can-ishk",
     icon: "icons/github.svg",
   },
 ];
@@ -26,6 +26,7 @@ export default function Hero() {
           <li className={styles.subtitle}>Software Engineer</li>
           <li className={styles.subtitle}>Technology Enthusiast</li>
           <li className={styles.subtitle}>Full Stack Developer</li>
+          <li className={styles.subtitle}>Cloud Engineer</li>
         </ul>
       </div>
       {/* <h2 className={styles.subtitle}>Software Engineer</h2> */}
