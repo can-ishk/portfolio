@@ -6,22 +6,22 @@
 
 @font-face {
   font-family: 'Druk Wide Bold';
-  src: local('Druk Wide Bold'), url(/fonts/Druk-Wide-Bold.ttf) format('truetype');
+  src: url(https://can-ishk.github.io/portfolio/fonts/Druk-Wide-Bold.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'HK Grotesk Wide';
-  src: local('HK Grotesk Wide'), url(/fonts/hkgroteskwide/hkgroteskwide-regular.otf) format('opentype');
+  src: url(https://can-ishk.github.io/portfolio/fonts/hkgroteskwide/hkgroteskwide-regular.otf) format('opentype');
 }
 @font-face {
   font-family: 'HK Grotesk Wide';
   font-weight: 700;
-  src: local('HK Grotesk Wide'), url(/fonts/hkgroteskwide/hkgroteskwide-bold.otf) format('opentype');
+  src: url(https://can-ishk.github.io/portfolio/fonts/hkgroteskwide/hkgroteskwide-bold.otf) format('opentype');
 }
 @font-face {
   font-family: 'HK Grotesk Wide';
   font-weight: 900;
-  src: local('HK Grotesk Wide'), url(/fonts/hkgroteskwide/hkgroteskwide-extrabold.otf) format('opentype');
+  src: url(https://can-ishk.github.io/portfolio/fonts/hkgroteskwide/hkgroteskwide-extrabold.otf) format('opentype');
 }
 
 html{
