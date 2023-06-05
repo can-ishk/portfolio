@@ -3,13 +3,13 @@
     color-scheme: dark;
   }
 }
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   html{
     background-color: blueviolet;
     color: #fff;
   }
   
-}
+} */
 
 @font-face {
   font-family: 'Druk Wide Bold';
