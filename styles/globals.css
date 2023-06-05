@@ -3,6 +3,12 @@
     color-scheme: dark;
   }
 }
+@media (prefers-color-scheme: light) {
+  html{
+    background-color: blueviolet;
+  }
+  
+}
 
 @font-face {
   font-family: 'Druk Wide Bold';
@@ -44,3 +50,4 @@ a:visited{
     overflow-x: hidden;
   }
 }
+

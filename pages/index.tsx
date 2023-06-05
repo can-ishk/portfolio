@@ -16,7 +16,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="https://can-ishk.github.io/portfolio/favicon.ico" />
       </Head>
-      <main>
+      <main className={styles.main}>
       <div className={styles.mainGrid}>
         <Hero />
         <Projects/>

@@ -12,9 +12,35 @@
   perspective: 1200px;
 }
 
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInBottom {
+  from {
+      opacity: 0;
+      transform: translateY(-100%);
+      /* color: rgba(150, 0, 210, 0.62); */
+  }
+  to { opacity: 1 }
+}
+
+
 .headingContainer {
   display: flex;
   justify-content: center;
+  animation: fadeInAnimation ease-in-out 0.75s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  @media screen and (max-width: 768px) {
+    animation: none ease-in-out 0.75s;
+    
+  }
 }
 
 .disabled {
@@ -37,36 +63,21 @@
   align-items: center;
   margin-bottom: 2rem;
   margin-left: -2rem;
-  @media screen and (min-width: 768px) {
-    margin-right: 2rem;
-  }
   max-height: 80vh;
   text-align: right;
   font-weight: 900;
   font-size: xx-large;
   overflow-y: scroll;
   list-style: none;
-}
-
-.fadeIn{
-  animation: fadeInAnimation ease 1s;
+  animation: fadeInBottom ease-in-out 0.75s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-}
-
-.fadeOut{
-  animation: fadeOutAnimation ease 1s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-
-@keyframes fadeInAnimation {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
-@keyframes fadeOutAnimation {
-  from { opacity: 1; }
-  to   { opacity: 0; }
+  @media screen and (max-width: 768px) {
+    animation: none ease-in-out 0.75s;
+  }
+  @media screen and (min-width: 768px) {
+    margin-right: 2rem;
+  }
 }
 
 .projectList::-webkit-scrollbar {
