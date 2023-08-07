@@ -1,18 +1,19 @@
 html{
   color-scheme: dark;
+  background: url('data:image/svg+xml,<svg id="visual" viewBox="0 0 2560 1440" width="2560" height="1440" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><defs><filter id="blur1" x="-10%" y="-10%" width="120%" height="120%"><feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood><feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend><feGaussianBlur stdDeviation="436" result="effect1_foregroundBlur"></feGaussianBlur></filter></defs><rect width="2560" height="1440" fill="%23860029"></rect><g filter="url(%23blur1)"><circle cx="1751" cy="1218" fill="%23321450" r="969"></circle><circle cx="1028" cy="176" fill="%23860029" r="969"></circle><circle cx="1916" cy="55" fill="%23321450" r="969"></circle><circle cx="2414" cy="166" fill="%23321450" r="969"></circle><circle cx="957" cy="1369" fill="%23860029" r="969"></circle><circle cx="249" cy="629" fill="%23321450" r="969"></circle></g></svg>')
 }
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
 }
-/* @media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: light) {
   html{
-    background-color: blueviolet;
+    color-scheme: dark;
     color: #fff;
   }
   
-} */
+}
 
 @font-face {
   font-family: 'Druk Wide Bold';
